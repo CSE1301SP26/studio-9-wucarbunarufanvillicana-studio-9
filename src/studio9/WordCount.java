@@ -8,6 +8,7 @@ import java.util.Map;
 import support.cse131.NotYetImplementedException;
 
 public class WordCount {
+	private LinkedList<String> list; 
 	/**
 	 * Constructs and returns a map of the distinct words in the specified list with
 	 * each word associated with its accumulated count (that is: the number of
@@ -29,9 +30,12 @@ public class WordCount {
 	 *         associated with the number of occurrences of the word
 	 */
 	public static Map<String, Integer> countWords(List<String> words) {
+		int count = 0; 
+		for (int i = 0; i<words.size(); i++) {
+			
+			countWords.put(words.get(i), )
 
-		// FIXME
-		throw new NotYetImplementedException();
+		}
 
 	}
 	
